@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.svg" />
+    <title>1xBook News</title>
+    <!-- twitter embed link -->
+
+    <style>
+      .heart {
+        width: 30px;
+        height: 30px;
+        background: url("%PUBLIC_URL%/heart.png") no-repeat;
+        cursor: pointer;
+        background-position: -15px 0;
+      }
+      .heart.is-active {
+        background-position: -1661px 0;
+        transition: background 0.5s steps(28);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+  </body>
+</html>

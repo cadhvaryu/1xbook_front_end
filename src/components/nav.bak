@@ -1,0 +1,63 @@
+ <NavLink
+              to="/Football"
+              className={`relative ${category === "Football" ? "active2" : ""}`}
+            >
+              <p className="text-[15px] min-w-max leading-4 font-light">
+                Football
+              </p>
+              <div className=""></div>
+            </NavLink>
+            <NavLink
+              to="/tennis"
+              className={`relative ${category === "Tennis" ? "active2" : ""}`}
+            >
+              <p className="text-[15px] min-w-max leading-4 font-light">
+                Tennis
+              </p>
+              <div className=""></div>
+            </NavLink>
+            <NavLink
+              to="/swimming"
+              className={`relative ${category === "Tennis" ? "active2" : ""}`}
+            >
+              <p className="text-[15px] min-w-max leading-4 font-light">
+                Swimming
+              </p>
+              <div className=""></div>
+            </NavLink>
+            <NavLink
+              to="/basketball"
+              className={`relative ${category === "Tennis" ? "active2" : ""}`}
+            >
+              <p className="text-[15px] min-w-max leading-4 font-light">
+                Basketball
+              </p>
+              <div className=""></div>
+            </NavLink>
+            <NavLink
+              to="/golf"
+              className={`relative ${category === "Tennis" ? "active2" : ""}`}
+            >
+              <p className="text-[15px] min-w-max leading-4 font-light">Golf</p>
+              <div className=""></div>
+            </NavLink>
+            <NavLink
+              to="/table-tennis"
+              className={`relative ${category === "Tennis" ? "active2" : ""}`}
+            >
+              <p className="text-[15px] min-w-max leading-4 font-light">
+                Table Tennis
+              </p>
+              <div className=""></div>
+            </NavLink>
+            <NavLink
+              to="/volleyball"
+              className={`relative ${category === "Tennis" ? "active2" : ""}`}
+            >
+              <p className="text-[15px] min-w-max leading-4 font-light">
+                Volleyball
+              </p>
+              <div className=""></div>
+
+              {/* <div className="mt-[18px] w-full h-[3px] bg-[#E31F29]"></div> */}
+            </NavLink>
